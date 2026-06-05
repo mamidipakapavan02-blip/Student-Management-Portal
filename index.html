@@ -45,13 +45,27 @@ footer{
     color:white;
     margin:10px;
 }
-.hero{
-    margin-top:10px;
-    margin-left:40px;
-    background-image:url("cvr.jpg");
-    background-size:cover;
-    width:95%;
+.hero {
+    background: url('cvr.jpg') center center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .hero {
+        min-height: 70vh;
+        background-position: center;
+    }
 
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }
 
 </style>
@@ -108,7 +122,7 @@ Login
 
 <!-- Hero Section -->
 
-<section class="hero">
+<section class="hero sm-ml-2">
 
 <div class="container">
 
