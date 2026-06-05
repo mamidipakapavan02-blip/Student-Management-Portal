@@ -1,182 +1,116 @@
-# 🎓 Student Management Portal
+# 📸 Project Screenshots
 
-A responsive **Student Management Portal** developed using **HTML5, CSS3, and Bootstrap 5**. This project provides an intuitive interface for student registration, profile management, dashboard statistics, attendance tracking, and contact information.
+## 🏠 Home Page
 
----
+The landing page of the Student Management Portal featuring a responsive navigation bar, hero section, and registration call-to-action.
 
-## 🚀 Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
+![Home Page](home.jpg)
 
 ---
 
-## 📌 Features
+## 📢 Announcements & Portal Features
 
-### 🏠 Home Page
-- Responsive Navigation Bar
-- Hero Section
-- College Information
-- Admissions Updates
-- Portal Features
-- FAQ Section
-- Footer
+Displays admission updates, examination notifications, and portal feature cards.
 
-### 📝 Student Registration
-- Student Registration Form
-- Gender Selection
-- Branch Selection
-- Date of Birth
-- Address Details
-- Photo Upload
-- Terms & Conditions
+![Portal Features](features.jpg)
 
-### 📊 Student Dashboard
+---
+
+## ❓ FAQ Section
+
+Frequently Asked Questions section built using Bootstrap Accordion.
+
+![FAQ Section](faq.jpg)
+
+---
+
+## 📊 Student Dashboard
+
+Dashboard displaying student statistics, attendance data, placements, and student records.
+
+![Dashboard](dashboard.jpg)
+
+### Features
 - Total Students
 - Present Students
 - Absent Students
-- Placements Statistics
+- Placements
 - Search Student Section
-- Student Records Table
+- Responsive Table
 
-### 👤 Student Profile
-- Student Information
-- Student ID Card
-- Academic Details
+---
+
+## 📝 Student Registration Form
+
+Student registration page with multiple form controls and Bootstrap components.
+
+![Registration Form](register.jpg)
+
+### Registration Fields
+- Full Name
+- Roll Number
+- Email
+- Mobile Number
+- Gender
+- Branch
+- Date of Birth
+
+---
+
+## 📝 Registration Form (Continued)
+
+Additional registration fields including address, photo upload, and form submission controls.
+
+![Registration Form Bottom](register-bottom.jpg)
+
+### Additional Fields
+- Address
+- Upload Photo
+- Terms & Conditions
+- Register Button
+- Reset Button
+
+---
+
+## 👤 Student Profile
+
+Displays student personal information and profile details.
+
+![Student Profile](profile.jpg)
+
+### Profile Information
+- Name
+- Roll Number
+- Branch
+- Email
+- Mobile Number
+- Address
+
+---
+
+## 🆔 Student ID Card & Academic Information
+
+Displays Student ID Card and academic statistics.
+
+![Student ID Card](id-card.jpg)
+
+### Academic Information
 - CGPA
 - Attendance Percentage
-- Projects Information
+- Projects Count
 
-### 📞 Contact Page
+---
+
+## 📞 Contact Page
+
+Contact page with a contact form and college information.
+
+![Contact Page](contact.jpg)
+
+### Contact Features
 - Contact Form
-- College Address
+- Address Information
 - Email Information
 - Phone Information
 
 ---
-
-# 📸 Screenshots
-
-## Home Page
-
-![Home Page](cvr.jpg)
-
----
-
-## Student Registration
-
-![Student Registration](student-registration.jpg)
-
----
-
-## Attendance Management
-
-![Attendance Management](attendance-management.jpg)
-
----
-
-## Results Management
-
-![Results Management](result.jpeg)
-
----
-
-## Student Profile
-
-![Student Profile](pavan.png)
-
----
-
-# 📂 Project Structure
-
-```text
-StudentManagement/
-│
-├── index.html
-├── register.html
-├── dashboard.html
-├── profile.html
-├── contact.html
-│
-├── cvr.jpg
-├── student-registration.jpg
-├── attendance-management.jpg
-├── result.jpeg
-├── pavan.png
-├── logo.jpg
-│
-└── README.md
-```
-
----
-
-# 🎨 Bootstrap Components Used
-
-- Navbar
-- Cards
-- Buttons
-- Forms
-- Input Groups
-- Tables
-- Badges
-- Accordion
-- Alerts
-- Grid System
-
----
-
-# 📱 Responsive Design
-
-The portal is fully responsive and compatible with:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
-Bootstrap's Grid System ensures a seamless experience across all screen sizes.
-
----
-
-# 🎯 Learning Outcomes
-
-This project demonstrates:
-
-- Responsive Web Design
-- Bootstrap 5 Components
-- Form Design
-- Dashboard Layout Design
-- Profile Page Design
-- Contact Form Design
-- CSS Styling Techniques
-
----
-
-# 🔮 Future Enhancements
-
-- JavaScript Validation
-- Login Authentication
-- Admin Dashboard
-- Database Integration
-- Attendance Tracking System
-- Result Management System
-- Dark Mode Support
-- Backend Integration using Node.js and MongoDB
-
----
-
-# 👨‍💻 Author
-
-**M Pavan Kumar**
-**23B81A05JD**
-
-B.Tech – Computer Science and Engineering
-
-CVR College of Engineering
-
----
-
-## ⭐ GitHub
-
-If you found this project useful, please consider giving it a **Star ⭐**.
