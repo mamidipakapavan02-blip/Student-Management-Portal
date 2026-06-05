@@ -1,0 +1,324 @@
+<!DOCTYPE html >
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management Portal</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-card{
+    transition: 0.3s;
+}
+
+.feature-card:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    background-color:#212529;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.social a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+}
+.hero{
+    margin-top:10px;
+    margin-left:40px;
+    background-image:url("cvr.jpg");
+    background-size:cover;
+    width:95%;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+
+<a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo.jpg" alt="College Logo" width="40" height="40" class="me-2">
+                <span>CVR College</span>
+</a>
+
+<button class="navbar-toggler" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#">
+Courses
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+<a href="register.html" class="btn btn-light ms-3">
+Login
+</a>
+
+</div>
+
+</div>
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1 class="display-4 fw-bold">
+Welcome to Student Management Portal
+</h1>
+
+<p class="lead mt-3">
+Manage student registrations, attendance,
+results and profiles through a responsive portal.
+</p>
+
+<a href="register.html"
+class="btn btn-warning btn-lg mt-3">
+Register Now
+</a>
+
+</div>
+
+</section>
+
+<!-- Announcements -->
+
+<section class="container mt-5">
+
+<div class="alert alert-success">
+Admissions Open for Academic Year 2026
+</div>
+
+<div class="alert alert-warning">
+Semester Examination Schedule Released
+</div>
+
+</section>
+
+<!-- Features Section -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">
+Portal Features
+</h2>
+
+<div class="row">
+
+<!-- Card 1 -->
+
+<div class="col-md-4 mb-4">
+
+<div class="card feature-card shadow h-100">
+
+<img src="student-registration.jpg"
+class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5 class="card-title">
+Student Registration
+</h5>
+
+<p class="card-text">
+Register students and manage personal details efficiently.
+</p>
+
+<a href="#" class="btn btn-primary">
+Learn More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="col-md-4 mb-4">
+
+<div class="card feature-card shadow h-100">
+
+<img src="attendance-management.jpg"
+class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5 class="card-title">
+Attendance Management
+</h5>
+
+<p class="card-text">
+Track attendance records and generate reports.
+</p>
+
+<a href="#" class="btn btn-success">
+Learn More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="col-md-4 mb-4">
+
+<div class="card feature-card shadow h-100">
+
+<img src="result.jpeg"
+class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5 class="card-title">
+Results Management
+</h5>
+
+<p class="card-text">
+Store, update and display examination results.
+</p>
+
+<a href="#" class="btn btn-danger">
+Learn More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ Section -->
+
+<section class="container mb-5">
+
+<h2 class="text-center mb-4">
+Frequently Asked Questions
+</h2>
+
+<div class="accordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button">
+How do I register?
+</button>
+</h2>
+
+<div class="accordion-body">
+Open the registration page and fill all required details.
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button">
+How can I check attendance?
+</button>
+</h2>
+
+<div class="accordion-body">
+Attendance information is available in the dashboard.
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button">
+How can I view results?
+</button>
+</h2>
+
+<div class="accordion-body">
+Results can be viewed from the student profile section.
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+© 2026 Student Management Portal. All Rights Reserved.
+</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">LinkedIn</a>
+<a href="#">Twitter</a>
+
+</div>
+
+</footer>
+
+</body>
+</html>
