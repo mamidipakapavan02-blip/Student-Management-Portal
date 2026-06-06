@@ -205,6 +205,14 @@ StudentManagement/
 │
 └── README.md
 ```
+---
+
+## 🔗 GitHub Repository
+
+```text
+https://github.com/your-username/college-event-management](https://github.com/mamidipakapavan02-blip/Student-Management-Portal
+```
+
 
 ---
 
